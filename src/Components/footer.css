@@ -1,0 +1,45 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 2em 0; /* Vertical padding */
+    text-align: center; /* Center-align text */
+  }
+  
+  .footer-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the social section */
+    flex-wrap: wrap; /* Wrap items on small screens */
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .footer-section {
+    margin: 1em; /* Margin for spacing */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1em; /* Space below headings */
+  }
+  
+  .footer-section.social a {
+    margin: 0 0.5em; /* Space between icons */
+  }
+  
+  .footer-section.social img {
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    transition: transform 0.3s; /* Smooth transition for scaling */
+  }
+  
+  .footer-section.social img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 2em; /* Space above the bottom section */
+    font-size: 0.8em; /* Smaller text for the bottom section */
+    color: #aaa; /* Light gray text */
+  }
+  

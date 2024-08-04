@@ -1,0 +1,79 @@
+/* src/components/Skills.css */
+
+.skills {
+    background-color: white; /* Light gray background */
+    padding: 4em 2em; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+  }
+  
+  .skills-content {
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .skills h2 {
+    font-size: 2.5em; /* Larger font size for the main heading */
+    color: #004e92; /* Blue color for the heading */
+    margin-bottom: 1em; /* Space below the heading */
+  }
+  
+  .skills-section {
+    margin-bottom: 3em; /* Space between sections */
+  }
+  
+  .skills-section h3 {
+    font-size: 2em; /* Font size for subheadings */
+    color: #004e92; /* Blue color for subheadings */
+    margin-bottom: 1em; /* Space below subheadings */
+  }
+  
+  .skill-icon-container {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center-align items vertically */
+    justify-content: center; /* Center-align items horizontally */
+  }
+  
+  .skill-icon-info {
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center-align items horizontally */
+  }
+  
+  .skill-icon {
+    width: 100px; /* Set icon size */
+    height: 100px; /* Set icon size */
+    transition: transform 0.3s; /* Smooth transition for scaling */
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+  }
+  
+  .arrow {
+    font-size: 2em; /* Arrow size */
+    background: none; /* Remove default background */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0 1em; /* Spacing around the arrow */
+    color: #004e92; /* Blue color for the arrows */
+  }
+  
+  .arrow:hover {
+    color: #003366; /* Darker blue on hover */
+  }
+  
+  .arrow:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .soft-skills-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .soft-skill {
+    font-size: 1.2em; /* Font size for soft skills */
+    color: #333; /* Dark text color */
+    margin: 0.5em 0; /* Space between list items */
+  }
+  

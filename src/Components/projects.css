@@ -1,0 +1,55 @@
+/* src/components/Projects.css */
+
+.projects {
+    background-image: url("./img/cards.png"); 
+    background-size: cover; /* Ensure the image covers the section */
+  background-position: center 20%; /* Center the image */
+  background-repeat: no-repeat;
+    padding: 4em 2em; /* Add padding for spacing */
+  }
+  
+  .projects-content {
+    max-width: 1200px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: center; /* Center-align text */
+  }
+  
+  .projects h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #004e92; /* Blue color for the heading */
+    margin-bottom: 1.5em; /* Space below the heading */
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 2em; /* Space between cards */
+  }
+  
+  .project-card {
+    background-color: #004e92; /* White background for cards */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 0.5em; /* Rounded corners */
+    padding: 2em; /* Padding inside cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card elevation */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .project-card h3 {
+    font-size: 1.8em; /* Font size for project titles */
+    color: white; /* Dark text color for titles */
+    margin-bottom: 0.5em; /* Space below titles */
+  }
+  
+  .project-card p {
+    font-size: 1.1em; /* Slightly larger text for readability */
+    color: white; /* Gray text color */
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 1em; /* Space between paragraphs */
+  }
+  

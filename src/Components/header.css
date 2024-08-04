@@ -1,0 +1,47 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1000;
+    width: 100vw;
+}
+.logo a{
+  font-size: 2.5em; /* Adjust size as needed */
+  font-weight: bold;
+  color: #ffffff; /* Set the color you want */
+  text-decoration: none;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em; /* Optional: Add some rounding to the corners */
+  display: inline-block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+    
+    
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li{
+    margin-left: 2em;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+    background-color: blue;
+}
