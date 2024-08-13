@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.2d9e53ef.css",
+    "main.js": "/My-Portfolio/static/js/main.0546286e.js",
+    "static/js/453.3a909cd3.chunk.js": "/My-Portfolio/static/js/453.3a909cd3.chunk.js",
+    "static/media/Thembinkosi-Taropafadzwa-Sikosana-CV.pdf": "/My-Portfolio/static/media/Thembinkosi-Taropafadzwa-Sikosana-CV.061dc569000a014983bc.pdf",
+    "static/media/cards.png": "/My-Portfolio/static/media/cards.bd0baa1d5addf99aeab4.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.2d9e53ef.css.map": "/My-Portfolio/static/css/main.2d9e53ef.css.map",
+    "main.0546286e.js.map": "/My-Portfolio/static/js/main.0546286e.js.map",
+    "453.3a909cd3.chunk.js.map": "/My-Portfolio/static/js/453.3a909cd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9e53ef.css",
+    "static/js/main.0546286e.js"
+  ]
+}
