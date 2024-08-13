@@ -1,4 +1,5 @@
 import React from "react";
+
 import './footer.css'
 import instagramicon from "./img/instagram.png"
 import twittericon from "./img/twitter.png"
@@ -26,6 +27,7 @@ const Footer =()=>{
                 </div>
             </div>
             <div className="footer-bottom">
+                <p>thembinkosisikosana@gmail.com +263773895061</p>
                 &copy; 2024 Thembinkosi Sikosana | All Rights Reserved
             </div>
         </footer>

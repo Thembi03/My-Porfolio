@@ -7,6 +7,7 @@ import Projects from './Components/projects';
 import Skills from './Components/skills';
 import Footer from './Components/footer';
 import Contact from './Components/contact';
+import Download from './Components/download';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <section id='Contact'>
         <Contact />
         </section>
+        <Download/>
 
         </main>
       <Footer />
