@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My-Porfolio/static/css/main.f2936da0.css",
-    "main.js": "/My-Porfolio/static/js/main.eb034343.js",
+    "main.css": "/My-Porfolio/static/css/main.bdde8e21.css",
+    "main.js": "/My-Porfolio/static/js/main.2d600c72.js",
     "static/js/453.3a909cd3.chunk.js": "/My-Porfolio/static/js/453.3a909cd3.chunk.js",
     "static/media/Thembinkosi-Taropafadzwa-Sikosana-CV.pdf": "/My-Porfolio/static/media/Thembinkosi-Taropafadzwa-Sikosana-CV.061dc569000a014983bc.pdf",
     "static/media/cards.png": "/My-Porfolio/static/media/cards.bd0baa1d5addf99aeab4.png",
     "index.html": "/My-Porfolio/index.html",
-    "main.f2936da0.css.map": "/My-Porfolio/static/css/main.f2936da0.css.map",
-    "main.eb034343.js.map": "/My-Porfolio/static/js/main.eb034343.js.map",
+    "main.bdde8e21.css.map": "/My-Porfolio/static/css/main.bdde8e21.css.map",
+    "main.2d600c72.js.map": "/My-Porfolio/static/js/main.2d600c72.js.map",
     "453.3a909cd3.chunk.js.map": "/My-Porfolio/static/js/453.3a909cd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2936da0.css",
-    "static/js/main.eb034343.js"
+    "static/css/main.bdde8e21.css",
+    "static/js/main.2d600c72.js"
   ]
 }
