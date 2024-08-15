@@ -28,7 +28,7 @@ const Footer =()=>{
             </div>
             <div className="footer-bottom">
                 <p>thembinkosisikosana@gmail.com +263773895061</p>
-                &copy; 2024 Thembinkosi Sikosana | All Rights Reserved
+                &copy; 2024 Thembinkosi Sikosana | All Rights Reserved | Coded by Yours Truly
             </div>
         </footer>
     );

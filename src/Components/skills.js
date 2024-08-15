@@ -1,6 +1,4 @@
-// src/components/Skills.js
-
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./skills.css";
 import cicon from "./img/c-sharp.png";
 import javaicon from "./img/java.png";
@@ -31,13 +29,34 @@ const softSkills = [
 
 const Skills = () => {
   const [currentIcon, setCurrentIcon] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIsFading(true); // Start fading out the current icon
+      setTimeout(() => {
+        setCurrentIcon((prev) => (prev === icons.length - 1 ? 0 : prev + 1));
+        setIsFading(false); // Start fading in the new icon
+      }, 500); // Matches the fade-out transition duration
+    }, 3000); // 3 seconds interval
+
+    return () => clearInterval(intervalId);
+  }, []);
 
   const handlePrev = () => {
-    setCurrentIcon((prev) => (prev === 0 ? icons.length - 1 : prev - 1));
+    setIsFading(true);
+    setTimeout(() => {
+      setCurrentIcon((prev) => (prev === 0 ? icons.length - 1 : prev - 1));
+      setIsFading(false);
+    }, 500); // Matches the fade-out transition duration
   };
 
   const handleNext = () => {
-    setCurrentIcon((prev) => (prev === icons.length - 1 ? 0 : prev + 1));
+    setIsFading(true);
+    setTimeout(() => {
+      setCurrentIcon((prev) => (prev === icons.length - 1 ? 0 : prev + 1));
+      setIsFading(false);
+    }, 500); // Matches the fade-out transition duration
   };
 
   return (
@@ -51,7 +70,7 @@ const Skills = () => {
             <button className="arrow prev" onClick={handlePrev}>
               &lt;
             </button>
-            <div className="skill-icon-info">
+            <div className={`skill-icon-info ${isFading ? 'hide' : ''}`}>
               <img src={icons[currentIcon].src} alt={icons[currentIcon].name} className="skill-icon" />
               <p>{icons[currentIcon].name}</p>
             </div>

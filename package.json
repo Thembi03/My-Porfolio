@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "http-proxy-middleware": "^3.0.0",
     "react": "^18.3.1",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
@@ -43,5 +44,4 @@
     "gh-pages": "^6.1.1"
   },
   "homepage": "http://thembi03.github.io/My-Porfolio"
-
 }

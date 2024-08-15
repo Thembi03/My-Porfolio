@@ -38,7 +38,7 @@ const Contact = () => {
       }
     } catch (error) {
       console.error('Error during fetch:', error); // Log the fetch error
-      setStatus('Error sending message.');
+      setStatus('Coming Soon(Backend doesn\'t have a suitable host yet ). For now though my email and social media links are at the very bottom of the page.');
     }
   };
 

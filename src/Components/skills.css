@@ -37,12 +37,17 @@
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack icon and text vertically */
     align-items: center; /* Center-align items horizontally */
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+  }
+  .skill-icon-info.hide{
+    opacity: 0;
   }
   
   .skill-icon {
     width: 100px; /* Set icon size */
     height: 100px; /* Set icon size */
-    transition: transform 0.3s; /* Smooth transition for scaling */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for scaling */
   }
   
   .skill-icon:hover {
